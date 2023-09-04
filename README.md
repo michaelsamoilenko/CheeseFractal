@@ -1,0 +1,2 @@
+# CheeseFractal
+It's moved to .net core and slightly refactored version of Tomas Petricek's [Cheese Fractal](https://tomasp.net/blog/infinite-cheese.aspx/#wpffractref). To run it in F# Interactive (FSI), you'll have to use .net FRAMEWORK based FSI. Check [this](https://stackoverflow.com/questions/77028103/errors-in-f-interactive-when-trying-to-reference-to-dlls-related-to-wpf) discussion for more details. Briefly that's because .net core FSI isn't able to resolve WPF DLLs.
